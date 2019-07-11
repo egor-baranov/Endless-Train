@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6045375145910316916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6045375145910316918}
+  - component: {fileID: 6045375145910316917}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6045375145910316918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045375145910316916}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6045375145910316917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045375145910316916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a33ff3eb40ec24bb05024083e08c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGWallPrefab: {fileID: 645489830974173207, guid: 2b1d69207b3031240b10a71f80cf342a,
+    type: 3}
+  WindowPrefab: {fileID: 9153274721808563316, guid: 83838d98f25457b40b635bba031caad6,
+    type: 3}
+  BGWallSource:
+  - {fileID: 21300228, guid: a355ea558b582964787f321e2275870e, type: 3}
+  - {fileID: 21300226, guid: a355ea558b582964787f321e2275870e, type: 3}
+  - {fileID: 21300230, guid: a355ea558b582964787f321e2275870e, type: 3}
+  - {fileID: 21300224, guid: a355ea558b582964787f321e2275870e, type: 3}
+  WindowSource: []
+  Templates:
+  - {fileID: 3256901211215763602, guid: 175e0b3a4d57398439101cb1312b27c0, type: 3}
+  - {fileID: 2195539766941656046, guid: db5880eb11e64614488361156d2e4323, type: 3}
+  - {fileID: 7309467241664496859, guid: b8f58f642515a95408254aca9c3a8ed0, type: 3}
+  - {fileID: 2032924225932736392, guid: 0acd433bb2ef7bd47ad27130eeff473d, type: 3}
+  - {fileID: 5163253461221043920, guid: f7daae86ee32a484291e5f1442025ff2, type: 3}
+  - {fileID: 2063192221512149752, guid: 149a9c12ed84a934cacd5789686a6e1b, type: 3}
+  TemplateAmount: 6
+  Enemies: []
